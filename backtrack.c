@@ -6,6 +6,11 @@
 typedef long long unsigned luint;
 typedef unsigned unit;
 //implementação de pilha
+struct s_tuple{
+	int posx;
+	int posy;
+};
+typedef struct s_tuple tuple;
 struct s_no{
 	int posx;
 	int posy;
@@ -80,6 +85,6 @@ int main(){
 	add_no
 	while(flag!='v'){
 		//edge cases
-		if(
+	
 	}
 }
